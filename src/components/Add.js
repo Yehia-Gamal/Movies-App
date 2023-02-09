@@ -5,7 +5,7 @@ import ResultCard from './ResultCard';
 
 const Add = () => {
 
-  const abi_url = "https://www.omdbapi.com/?i=tt3896198&apikey=f9251b2d"
+
 
   const [searchValue, setSearchValue] = useState("")
   const [movies, setMovies] = useState([])
