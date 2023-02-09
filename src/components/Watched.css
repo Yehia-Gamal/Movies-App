@@ -1,8 +1,8 @@
-.watch-list {
+.watched {
   padding: 80px 0px 30px;
 }
 
-.watch-list .main-heading {
+.watched .main-heading {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -19,7 +19,7 @@
   color: var(--primary);
 }
 
-.watch-list h1 {
+.watched h1 {
   color: var(--primary);
   margin: 0;
 }
@@ -46,7 +46,7 @@
   display: block;
 }
 
-.watch-list .no-movies {
+.watched .no-movies {
   color: #c4c4c4;
   font-size: 3rem;
   text-align: center;
