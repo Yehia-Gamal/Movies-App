@@ -22,7 +22,7 @@ const Header = () => {
                 <NavLink className="nav-link" to={"/watched"}>Watched</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link button" to={"/add"}>Add</NavLink>
+                <NavLink className="nav-link btn btn-outline-success" style={{ lineHeight: 1 }} to={"/add"}>Add</NavLink>
               </li>
             </ul>
             {/* <form className="d-flex" role="search">

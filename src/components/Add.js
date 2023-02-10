@@ -5,7 +5,9 @@ import ResultCard from './ResultCard';
 
 const Add = () => {
 
-
+  const formSubmit = (e) => {
+    e.preventDefault()
+  }
 
   const [searchValue, setSearchValue] = useState("")
   const [movies, setMovies] = useState([])
@@ -23,7 +25,7 @@ const Add = () => {
       <div className="container">
         <div className="add-content">
           <div className="input-container">
-            <form className="d-flex" role="search">
+            <form onSubmit={formSubmit} className="d-flex" role="search">
               <input className="form-control me-2" type="search" placeholder="Search for a movie" aria-label="Search" value={searchValue} onChange={(e) => setSearchValue(e.target.value)} />
               <button className="btn btn-outline-success" type="submit">Search</button>
             </form>
@@ -32,7 +34,7 @@ const Add = () => {
           {
             movies.length > 0 && <ul className='results'>
               {movies.map((movie) => (<li key={movie.imdbID}>
-                {<ResultCard movie={movie}/>}
+                {<ResultCard movie={movie} />}
               </li>))}
             </ul>
           }
