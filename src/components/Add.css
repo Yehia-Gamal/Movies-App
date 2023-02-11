@@ -13,6 +13,24 @@
   font-size: 1.25rem;
 }
 
+.add-content .input-container input::placeholder {
+  color: var(--text-dark);
+}
+
 .results {
   margin-top: 20px
+}
+
+.add-content h2 {
+  color: var(--text-dark);
+}
+
+@media (max-width: 768px) {
+  .result-card .info .controls {
+    display: flex;
+    flex-direction: column;
+  }
+  .result-card .info .controls .button {
+    margin: 10px 0px 0;
+  }
 }

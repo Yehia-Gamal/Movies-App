@@ -1,5 +1,7 @@
 .result-card {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-bottom: 20px;
 }
 
@@ -14,21 +16,27 @@
   color: transparent;
 }
 
+.poster-wrapper {
+  flex: 1;
+}
+
 .result-card .info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex: 2;
+}
+
+.result-card .heading .title {
+  font-size: 20px;
+
 }
 
 .result-card .info .year {
   font-size: 1.25rem;
   font-weight: 300;
-  color: var(--primary);
+  color: var(--text-dark);
   margin: 0;
-}
-
-.result-card .controls {
-  /* margin-right: 10px; */
 }
 
 .result-card .controls button {

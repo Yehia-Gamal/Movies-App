@@ -5,7 +5,8 @@
 :root {
   --primary: #032541;
   --secondary: #21d07a;
-  --white: #fff;
+  --text-light: #8992a0;
+  --text-dark: #333c4e;
   --transition: all 0.3s ease;
 }
 
@@ -34,6 +35,8 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #212c39 !important;
+  color: rgba(255,255,255,0.5)!important;
 }
 
 .container {
@@ -92,19 +95,27 @@ input:focus {
 
 .navbar {
   background-color: var(--primary);
+  z-index: 999;
 }
 
 .navbar a {
-  color: var(--white) !important;
+  color: rgba(255,255,255,0.5);
   font-size: 1.25rem;
   transition: var(--transition);
+  font-weight: bold;
 }
 
+.navbar a:focus,
 .navbar a:hover {
-  opacity: 0.7;
+  /* opacity: 0.7; */
+  color: var(--text-dark);
+}
+
+.nav-link.active {
+  color: var(--text-dark)!important;
 }
 
 .navbar-brand {
   font-weight: 700;
-  font-size: 1.5rem!important;
+  font-size: 1.5rem !important;
 }

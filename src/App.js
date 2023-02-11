@@ -4,7 +4,6 @@ import { Route, Routes } from 'react-router-dom';
 import Add from './components/Add';
 import WatchList from './components/WatchList';
 import Watched from './components/Watched';
-import Moves from './components/Movies';
 import ContextProvider from './components/context/GlobalContext';
 
 function App() {
@@ -14,8 +13,7 @@ function App() {
       <ContextProvider>
         <Header />
         <Routes>
-          <Route path='/' element={<Moves />} />
-          <Route path='/add' element={<Add />} />
+          <Route path='/' element={<Add />} />
           <Route path='/watchlist' element={<WatchList />} />
           <Route path='/watched' element={<Watched />} />
         </Routes>
