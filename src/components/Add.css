@@ -1,5 +1,4 @@
 .add-content {
-  padding: 100px 0;
   max-width: 600px;
   margin: 0 auto;
 }
@@ -18,7 +17,9 @@
 }
 
 .results {
-  margin-top: 20px
+  margin: 20px;
+  height: 80vh;
+  overflow: auto;
 }
 
 .add-content h2 {
@@ -26,11 +27,21 @@
 }
 
 @media (max-width: 768px) {
+  .results {
+    padding: 0;
+  }
+
   .result-card .info .controls {
     display: flex;
     flex-direction: column;
   }
+
   .result-card .info .controls .button {
     margin: 10px 0px 0;
+  }
+
+  .add-content h2 {
+    font-size: 18px;
+    font-weight: bold;
   }
 }

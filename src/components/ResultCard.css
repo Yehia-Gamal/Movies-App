@@ -1,7 +1,7 @@
 .result-card {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-bottom: 20px;
 }
 
@@ -16,15 +16,28 @@
   color: transparent;
 }
 
-.poster-wrapper {
-  flex: 1;
-}
+
 
 .result-card .info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex: 2;
+
+}
+
+@media (max-width: 767px) {
+  .result-card .info {
+    flex: 2;
+  }
+
+  .poster-wrapper {
+    flex: 1;
+  }
+
+  .result-card {
+    justify-content: space-between;
+    align-items: end;
+  }
 }
 
 .result-card .heading .title {
@@ -36,7 +49,7 @@
   font-size: 1.25rem;
   font-weight: 300;
   color: var(--text-dark);
-  margin: 0;
+  margin: 10px;
 }
 
 .result-card .controls button {

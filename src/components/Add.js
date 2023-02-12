@@ -24,7 +24,7 @@ const Add = () => {
     <div className='add-page'>
       <div className="container">
         <div className="add-content">
-          <h2 className='mb-4 mt-5 text-center'>Search for any movie you want to watch</h2>
+          <h2 className='mb-4 mt-3 text-center'>Search for any movie you want to watch</h2>
           <div className="input-container">
             <form onSubmit={formSubmit} className="d-flex" role="search">
               <input className="form-control me-2" type="search" placeholder="Search for a movie" aria-label="Search" value={searchValue} onChange={(e) => setSearchValue(e.target.value)} />

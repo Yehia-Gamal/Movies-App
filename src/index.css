@@ -64,6 +64,11 @@ body {
   }
 }
 
+.main {
+  height: 100vh;
+  overflow: hidden;
+}
+
 .button {
   padding: 10px 20px;
   background-color: var(--secondary);
@@ -107,7 +112,6 @@ input:focus {
 
 .navbar a:focus,
 .navbar a:hover {
-  /* opacity: 0.7; */
   color: var(--text-dark);
 }
 

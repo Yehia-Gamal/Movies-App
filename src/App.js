@@ -8,7 +8,7 @@ import ContextProvider from './components/context/GlobalContext';
 
 function App() {
   return (
-    <div>
+    <div className='main'>
 
       <ContextProvider>
         <Header />

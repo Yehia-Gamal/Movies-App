@@ -59,3 +59,9 @@
   color: var(--secondary);
   cursor: pointer;
 }
+
+@media (max-width: 767px) {
+  .ctrl-button {
+    font-size: .9rem;
+  }
+}
