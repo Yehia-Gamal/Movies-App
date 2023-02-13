@@ -1,4 +1,3 @@
-import React from 'react';
 import { useMoviesContext } from './context/GlobalContext';
 import * as actions from "./context/ActionTypes"
 
