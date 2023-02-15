@@ -4,7 +4,7 @@
 /* Css Custom Variables */
 :root {
   --primary: #032541;
-  --secondary: #21d07a;
+  --secondary: #238636;
   --text-light: #8992a0;
   --text-dark: #333c4e;
   --transition: all 0.3s ease;
@@ -36,6 +36,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #212c39 !important;
+  color: var(--text-light);
 }
 
 .container {
@@ -83,7 +84,7 @@ body {
 }
 
 .button:hover {
-  background-color: #1aa762;
+  background-color: var(--secondary);
   opacity: 1;
   cursor: pointer;
 }

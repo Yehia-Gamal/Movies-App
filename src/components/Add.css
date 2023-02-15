@@ -8,7 +8,7 @@
   background-color: var(--primary);
   padding: 10px;
   border-radius: 5px;
-  color: var(--white);
+  color: var(--text-light);
   font-size: 1.25rem;
 }
 
