@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/.github.io/Movies-App/static/css/main.043fd624.css",
-    "main.js": "/.github.io/Movies-App/static/js/main.d21ebd75.js",
-    "static/js/787.2b35ebb1.chunk.js": "/.github.io/Movies-App/static/js/787.2b35ebb1.chunk.js",
+    "main.css": "/.github.io/Movies-App/static/css/main.8617be2c.css",
+    "main.js": "/.github.io/Movies-App/static/js/main.ce22a9dc.js",
     "index.html": "/.github.io/Movies-App/index.html",
-    "main.043fd624.css.map": "/.github.io/Movies-App/static/css/main.043fd624.css.map",
-    "main.d21ebd75.js.map": "/.github.io/Movies-App/static/js/main.d21ebd75.js.map",
-    "787.2b35ebb1.chunk.js.map": "/.github.io/Movies-App/static/js/787.2b35ebb1.chunk.js.map"
+    "main.8617be2c.css.map": "/.github.io/Movies-App/static/css/main.8617be2c.css.map",
+    "main.ce22a9dc.js.map": "/.github.io/Movies-App/static/js/main.ce22a9dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.043fd624.css",
-    "static/js/main.d21ebd75.js"
+    "static/css/main.8617be2c.css",
+    "static/js/main.ce22a9dc.js"
   ]
 }
