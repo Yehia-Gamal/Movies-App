@@ -12,7 +12,7 @@ function App() {
       <ContextProvider>
         <Header />
         <Routes>
-          <Route path='/' element={<Add />} />
+          <Route path='/Movies-App' element={<Add />} />
           <Route path='/watchlist' element={<WatchList />} />
           <Route path='/watched' element={<Watched />} />
         </Routes>
